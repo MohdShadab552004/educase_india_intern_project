@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <section className="max-w-[375px] min-h-[100vh] mx-auto bg-[var(--primary-bg-color)] shadow">
+    <section className="max-w-[375px] min-h-screen mx-auto bg-[var(--primary-bg-color)] shadow">
         <header className="w-full h-[68px] bg-[#FFFFFF] flex items-center px-[15px]">
             <h2 className="text-[18px] font-semibold">Account Settings</h2>
         </header>
@@ -26,7 +26,7 @@ const HomePage = () => {
       </div>
 
       <section className="px-[15px] pb-[30px] border-b-[1px] border-dotted border-zinc-300">
-        <p className="text-sm text-[var(--primary-text-color)] max-w-xs">
+        <p className="text-sm text-[var(--primary-text-color)] w-full">
             Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
             Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
             Erat, Sed Diam

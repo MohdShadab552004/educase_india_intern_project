@@ -56,7 +56,7 @@ const LoginPage = () => {
   ];
 
   return (
-    <main className='max-w-[375px] h-screen mx-auto px-5 py-10 flex flex-col items-start gap-8 bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
+    <main className='max-w-[375px] min-h-screen mx-auto px-5 py-10 flex flex-col items-start gap-8 bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
       <header>
         <h1 className='text-[28px] font-bold mb-2 leading-tight'>Sign in to your PopX account</h1>
         <p className='opacity-60 leading-snug'>
