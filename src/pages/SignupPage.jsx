@@ -70,7 +70,7 @@ const SignupPage = () => {
   ];
 
   return (
-    <main className='max-w-[375px] min-h-screen mx-auto px-5 py-10 flex flex-col gap-7 bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
+    <main className='max-w-[375px] min-h-[100dvh] mx-auto px-5 py-10 flex flex-col gap-7 bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
       <header className='pr-[100px]'>
         <h1 className='font-bold text-[28px] leading-none  mb-2.5'>
           Create your PopX account

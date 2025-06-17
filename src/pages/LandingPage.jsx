@@ -11,7 +11,7 @@ const LandingPage = () => {
         }
     }, [navigate]);
     return (
-        <section className='max-w-[375px] min-h-screen  mx-auto px-5 py-10 flex flex-col items-start justify-end gap-[29px] bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
+        <section className='max-w-[375px] min-h-[100dvh]  mx-auto px-5 py-10 flex flex-col items-start justify-end gap-[29px] bg-[var(--primary-bg-color)] text-[var(--primary-text-color)]'>
             <header className='w-full'>
                 <h1 className='font-bold text-[28px] leading-none mb-[10px]'>Welcome to PopX</h1>
                 <p className=' opacity-[0.6]'>Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit,</p>

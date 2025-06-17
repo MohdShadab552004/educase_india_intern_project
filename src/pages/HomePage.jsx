@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <section className="max-w-[375px] min-h-screen mx-auto bg-[var(--primary-bg-color)] shadow">
+    <section className="max-w-[375px] min-h-[100dvh] mx-auto bg-[var(--primary-bg-color)] shadow">
         <header className="w-full h-[68px] bg-[#FFFFFF] flex items-center px-[15px]">
             <h2 className="text-[18px] font-semibold">Account Settings</h2>
         </header>
